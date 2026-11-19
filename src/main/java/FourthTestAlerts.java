@@ -24,7 +24,8 @@ public class FourthTestAlerts {
         prompt.accept();
 
         String result = driver.findElement(By.id("result")).getText();
-        System.out.println(result);driver.quit();
+        System.out.println(result);
+        driver.quit();
     }
 
 }
